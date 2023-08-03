@@ -1,40 +1,38 @@
+html {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+    background-color: black;
+}
 .main {
     width: 100vw;
     height: 100vh;
     background-color: black;
 }
 .notice {
-    position: absolute;
-    right: 50%;
-    top: 25%;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    font-size: xx-large;
 }
 h1 {
     color: white;
 }
-.ball {
+.balldiv {
     position: absolute;
-    right: 10%;
     bottom: 20%;
+    right: 10%;
+}
+.ball {
+    z-index: 1;
     width: 311px;
     height: 201px;
 }
-.txt-logo {
-    position: absolute;
-    right: 10%;
-    bottom: 15%;
+.namediv {
+    position: relative;
+    left: 60%;
 }
-.winmore {
-    font-family: 'ptarm';
-    color: white;
-}
-.the {
-    color: white;
-}
-.logo-line {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: white;
-}
-.group {
-    color: white;
+.name {
+    z-index: 2;
+    width: 107px;
+    height: 45px;
 }
