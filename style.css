@@ -1,11 +1,11 @@
-html {
+html, body {
     font-family: 'Dosis', sans-serif;
     font-family: 'Noto Sans Vithkuqi', sans-serif;
     background-color: black;
+    overflow-x: hidden;
 }
 body {
-    overflow-x: hidden;
-    width: 100%;
+    position: relative;
 }
 .main {
     width: 100%;
