@@ -3,12 +3,9 @@ html {
     font-family: 'Noto Sans Vithkuqi', sans-serif;
     background-color: black;
 }
-body {
+html, body {
     overflow-x: hidden;
     width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
 }
 .main {
     width: 100%;
