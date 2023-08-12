@@ -2,10 +2,9 @@ html, body {
     font-family: 'Dosis', sans-serif;
     font-family: 'Noto Sans Vithkuqi', sans-serif;
     background-color: black;
-    overflow-x: hidden;
 }
 body {
-    position: relative;
+    overflow-x: hidden;
 }
 .main {
     width: 100%;
