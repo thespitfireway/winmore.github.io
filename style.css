@@ -12,6 +12,12 @@ html, body {
     width: 50%;
     margin: auto;
     margin-top: 10%;
+    text-align-last: center;
+    text-decoration: none;
+}
+.consdiv p {
+    color: white;
+    font-size: small;
 }
 .crane {
     display: block;
@@ -27,11 +33,11 @@ html, body {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-.navbar a {
+a {
     text-decoration: none;
     color: white;
 }
-.navbar a:hover {
+a:hover {
     color: red;
 }
 .main {
@@ -81,4 +87,15 @@ hr {
     border-left-width: 85px;
     border-right-width: 85px;
     margin: 2px;
+}
+.contactdiv {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.contactdiv p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
